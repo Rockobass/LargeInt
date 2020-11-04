@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/ccc.dir/larger_int.cpp.o CMakeFiles/ccc.dir/linked_list.cpp.o CMakeFiles/ccc.dir/main.cpp.o  -o ccc.exe -Wl,--out-implib,libccc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

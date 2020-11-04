@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ccc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ccc">
+				<Option output="/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/ccc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/20180/Desktop/doc/ccc/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ccc"/>
+					<CompileFile command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ccc/fast">
+				<Option output="/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/ccc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/20180/Desktop/doc/ccc/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ccc/fast"/>
+					<CompileFile command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Program Files/mingw64/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/20180/Desktop/doc/ccc/large_int.h">
+			<Option target="ccc"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/20180/Desktop/doc/ccc/larger_int.cpp">
+			<Option target="ccc"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/20180/Desktop/doc/ccc/linked_list.cpp">
+			<Option target="ccc"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/20180/Desktop/doc/ccc/linked_list.h">
+			<Option target="ccc"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/20180/Desktop/doc/ccc/main.cpp">
+			<Option target="ccc"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/20180/Desktop/doc/ccc/node.h">
+			<Option target="ccc"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/20180/Desktop/doc/ccc/test.txt">
+			<Option target="ccc"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/20180/Desktop/doc/ccc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

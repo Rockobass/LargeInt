@@ -1,0 +1,55 @@
+The system is: CYGWIN - 3.1.0(0.340/5/3) - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/cygdrive/c/Program Files/mingw64/bin/make.exe cmTC_b675b/fast && C:/Program Files/mingw64/bin/make -f CMakeFiles/cmTC_b675b.dir/build.make CMakeFiles/cmTC_b675b.dir/build
+make[1]: Entering directory 'C:/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b675b.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b675b.dir/testCCompiler.c.o   -c /cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b675b.exe
+/cygdrive/c/Users/20180/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_b675b.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_b675b.dir/testCCompiler.c.o  -o cmTC_b675b.exe -Wl,--out-implib,libcmTC_b675b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory 'C:/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/cygdrive/c/Program Files/mingw64/bin/make.exe cmTC_65ab9/fast && C:/Program Files/mingw64/bin/make -f CMakeFiles/cmTC_65ab9.dir/build.make CMakeFiles/cmTC_65ab9.dir/build
+make[1]: Entering directory 'C:/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65ab9.dir/testCXXCompiler.cxx.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTC_65ab9.dir/testCXXCompiler.cxx.o -c /cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_65ab9.exe
+/cygdrive/c/Users/20180/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_65ab9.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_65ab9.dir/testCXXCompiler.cxx.o  -o cmTC_65ab9.exe -Wl,--out-implib,libcmTC_65ab9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory 'C:/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+

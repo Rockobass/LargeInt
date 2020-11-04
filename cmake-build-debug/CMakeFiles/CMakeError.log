@@ -1,0 +1,24 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/cygdrive/c/Program Files/mingw64/bin/make.exe cmTC_e6bc9/fast && C:/Program Files/mingw64/bin/make -f CMakeFiles/cmTC_e6bc9.dir/build.make CMakeFiles/cmTC_e6bc9.dir/build
+make[1]: Entering directory 'C:/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: *** No rule to make target '/cygdrive/c/Users/20180/.CLion2019.2/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_e6bc9.dir/CMakeCCompilerABI.c.o'.  Stop.
+make[1]: Leaving directory 'C:/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e6bc9/fast] Error 2
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/cygdrive/c/Program Files/mingw64/bin/make.exe cmTC_b61f9/fast && C:/Program Files/mingw64/bin/make -f CMakeFiles/cmTC_b61f9.dir/build.make CMakeFiles/cmTC_b61f9.dir/build
+make[1]: Entering directory 'C:/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: *** No rule to make target '/cygdrive/c/Users/20180/.CLion2019.2/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeCXXCompilerABI.cpp', needed by 'CMakeFiles/cmTC_b61f9.dir/CMakeCXXCompilerABI.cpp.o'.  Stop.
+make[1]: Leaving directory 'C:/Users/20180/Desktop/doc/ccc/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b61f9/fast] Error 2
+
+
+
+
